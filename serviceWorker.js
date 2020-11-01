@@ -1,4 +1,4 @@
-const DuckyComics = "Ducky-Comics"
+const BatmanMrFreeze = "Batman-Mr-Freezr"
 const assets = [
     "/",
     "run.html",
