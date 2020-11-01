@@ -47,13 +47,14 @@ const assets = [
     "styles.css",
     "the-home-depot.png",
     "two.html",
-    "vault.html"
+    "vault.html",
+    "start.html"
 ]
 
 self.addEventListener("install", installEvent => {
     console.log("Trying to install servivce worker and in cache static assets");
   installEvent.waitUntil(
-    caches.open(DuckyComics).then(cache => {
+    caches.open(BatmanMrFreeze).then(cache => {
       return cache.addAll(assets)
     })
   )
