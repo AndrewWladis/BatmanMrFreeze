@@ -1,5 +1,9 @@
 {
  "name": "MrFreeze6000",
+ "display": "standalone",
+ "background_color": "#E76D14",
+ "theme_color": "#F7EC09",
+ "orientation": "portrait-primary",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
