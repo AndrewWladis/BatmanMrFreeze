@@ -1,4 +1,4 @@
-const BatmanMrFreeze = "Batman-Mr-Freezr"
+const BatmanMrFreeze = "Batman-Mr-Freeze"
 const assets = [
     "/",
     "run.html",
